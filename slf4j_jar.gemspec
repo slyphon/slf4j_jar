@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Jonathan D. Simms"]
   s.email       = ["slyphon@gmail.com"]
   s.homepage    = "http://www.slf4j.org/"
-  s.summary     = %q{A gem wrapping the slf4j jar files}
+  s.summary     = %Q{A gem wrapping the slf4j #{Slf4jJar::JAR_VERSION} jar files}
   s.description = s.summary + "\n"
   s.platform    = 'java'
 
