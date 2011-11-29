@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "slf4j_jar/version"
 
 Gem::Specification.new do |s|
-  s.name        = "slf4j_jar"
+  s.name        = "slyphon-slf4j_jar"
   s.version     = Slf4jJar::VERSION
   s.authors     = ["Jonathan D. Simms"]
   s.email       = ["slyphon@gmail.com"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = s.summary + "\n"
   s.platform    = 'java'
 
-  s.rubyforge_project = "slf4j_jar"
+  s.rubyforge_project = "slyphon-slf4j_jar"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
